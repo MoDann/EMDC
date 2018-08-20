@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emdc>
+	<server class="com.briup.environment.server.ServerImpl1">
+		<port>9999</port>
+	</server>
+	<dbstore class="com.briup.environment.server.DBStoreImpl">
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@localhost:1521:XE</url>
+		<username>envir</username>
+		<password>envir</password>
+		<batch-size>500</batch-size>
+	</dbstore>
+	
+	<client class="com.briup.environment.client.ClientImpl">
+		<server-ip>127.0.0.1</server-ip>
+		<port>9999</port>
+	</client>
+	
+	<gather class="com.briup.environment.client.GatherImpl">
+		<src-file>src/data/radwtmp</src-file>
+		<record-file>src/data/record</record-file>
+	</gather>
+	
+	<log class="com.briup.environment.util.LoggerImpl">
+		<log-file>src/log4j1.properties</log-file>
+	</log>
+	
+	<backup class="com.briup.environment.util.BackUpImpl">
+		<backup-file>src/back_tmp/</backup-file>
+	</backup>
+	
+</emdc>

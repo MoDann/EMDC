@@ -1,0 +1,16 @@
+[emdc_gather] com.briup.environment.util.LogImpl.info(LogImpl.java:18)-2018-06-12 16:29:21,237   -------读取数据
+[emdc_gather] com.briup.environment.util.LogImpl.info(LogImpl.java:18)-2018-06-12 16:29:21,242   -------采集环境数据：0
+[emdc_gather] com.briup.environment.util.LogImpl.info(LogImpl.java:18)-2018-06-12 16:30:17,154   -------读取数据
+[emdc_gather] com.briup.environment.util.LogImpl.info(LogImpl.java:18)-2018-06-12 16:30:17,157   -------采集环境数据：0
+[emdc_gather] INFO-com.briup.environment.util.LogImpl.info(LogImpl.java:18)-2018-06-12 16:30:52,297   -------读取数据
+[emdc_gather] INFO-com.briup.environment.util.LogImpl.info(LogImpl.java:18)-2018-06-12 16:30:52,304   -------采集环境数据：0
+[emdc_gather] INFO-com.briup.environment.util.LoggerImpl.info(LoggerImpl.java:30)-2018-06-13 16:21:12,737   -------this is info
+[emdc_gather] WARN-com.briup.environment.util.LoggerImpl.warn(LoggerImpl.java:35)-2018-06-13 16:21:12,748   -------this is warn
+[emdc_gather] ERROR-com.briup.environment.util.LoggerImpl.error(LoggerImpl.java:40)-2018-06-13 16:21:12,748   -------this is error
+[emdc_gather] FATAL-com.briup.environment.util.LoggerImpl.fatal(LoggerImpl.java:45)-2018-06-13 16:21:12,748   -------this is fatal
+[emdc_gather] INFO-com.briup.environment.util.LoggerImpl.info(LoggerImpl.java:30)-2018-06-13 16:30:47,478   -------读取文件：a.txt
+[emdc_gather] INFO-com.briup.environment.util.LoggerImpl.info(LoggerImpl.java:30)-2018-06-13 16:30:47,511   -------读取文件：b.txt
+[emdc_gather] INFO-com.briup.environment.util.LoggerImpl.info(LoggerImpl.java:30)-2018-06-13 16:32:37,321   -------this is info
+[emdc_gather] WARN-com.briup.environment.util.LoggerImpl.warn(LoggerImpl.java:35)-2018-06-13 16:32:37,324   -------this is warn
+[emdc_gather] ERROR-com.briup.environment.util.LoggerImpl.error(LoggerImpl.java:40)-2018-06-13 16:32:37,324   -------this is error
+[emdc_gather] FATAL-com.briup.environment.util.LoggerImpl.fatal(LoggerImpl.java:45)-2018-06-13 16:32:37,324   -------this is fatal
